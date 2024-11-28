@@ -5,14 +5,14 @@ const StateFulForm = () => {
     const [email, setEmail] = useState(null)
     const [pass, setPass] = useState(null)
     const [error, setError] = useState('')
- 
+
     const handleSubmit = e => {
         e.preventDefault()
 
-        if(pass.length < 6){
+        if (pass.length < 6) {
             setError('passeword must be 6 character')
         }
-        else{
+        else {
             console.log('name : ', name, '/ email :', email, '/ password:', pass,)
             setError('')
         }
@@ -47,9 +47,9 @@ const StateFulForm = () => {
                 <br />
                 <input type="submit" />
                 {
-                    error &&  <p>{error}</p>
+                    error && <p>{error}</p>
                 }
-               
+
             </form>
         </div>
     );
