@@ -1,4 +1,5 @@
 import './App.css'
+import Granpa from './components/Family/Granpa';
 // import HookForm from './components/HookForm/HookForm';
 import ReUsableForm from './components/ReUsableForm/ReUsableForm';
 
@@ -15,11 +16,13 @@ const handleUpdateProfile = data => {
 
   return (
     <div>
+      <h1>Form Master</h1>
       {/* <SimpleForm></SimpleForm> */}
       {/* <StateFulForm></StateFulForm> */}
       {/* <RefForm></RefForm> */}
       {/* <HookForm></HookForm> */}
-      <ReUsableForm formTitle={'sign Up'}
+
+      {/* <ReUsableForm formTitle={'sign Up'}
        handleSubmit={handleSignUp}>
         <h1>Sign Up</h1>
         <p>Please fill up</p>
@@ -30,7 +33,9 @@ const handleUpdateProfile = data => {
        submitBtnText='Update'>
         <h1>Update Profile</h1>
         <p>Always keep updated</p>
-       </ReUsableForm>
+       </ReUsableForm> */}
+
+       <Granpa></Granpa>
 
     </div>
   );
