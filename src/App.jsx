@@ -1,7 +1,5 @@
 import './App.css'
-import SimpleForm from './components/Form/SimpleForm';
-import StateFulForm from './components/Form/StateFulForm/StateFulForm';
-import RefForm from './components/RefForm/RefForm';
+import HookForm from './components/HookForm/HookForm';
 
 
 const App = () => {
@@ -9,7 +7,9 @@ const App = () => {
     <div>
       {/* <SimpleForm></SimpleForm> */}
       {/* <StateFulForm></StateFulForm> */}
-      <RefForm></RefForm>
+      {/* <RefForm></RefForm> */}
+
+      <HookForm></HookForm>
     </div>
   );
 };
