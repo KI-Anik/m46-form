@@ -21,11 +21,16 @@ const handleUpdateProfile = data => {
       {/* <HookForm></HookForm> */}
       <ReUsableForm formTitle={'sign Up'}
        handleSubmit={handleSignUp}>
+        <h1>Sign Up</h1>
+        <p>Please fill up</p>
        </ReUsableForm>
 
       <ReUsableForm formTitle={'Profile Update'}
        handleSubmit={handleUpdateProfile} 
-       submitBtnText='Update'></ReUsableForm>
+       submitBtnText='Update'>
+        <h1>Update Profile</h1>
+        <p>Always keep updated</p>
+       </ReUsableForm>
 
     </div>
   );
