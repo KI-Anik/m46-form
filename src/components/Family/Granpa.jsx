@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import Dad from './Dad';
 import Uncle from '../Uncle/Uncle';
 import Aunty from '../Aunty/Aunty';
